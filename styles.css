@@ -3,6 +3,9 @@
   padding: 0;
   border: none;
 }
+html {
+  overflow: hidden;
+}
 body {
   background: #3d0200 url(assets/wood-bg.png);
 }
@@ -29,14 +32,16 @@ body {
   background-color: #582f0e;
 }
 .enemy {
-  height: 49px;
-  width: 49px;
+  height: 48px;
+  width: 48px;
   background-color: #e85d04;
   border: 1px solid #d00000;
+  outline: none;
 }
 .main-character {
-  height: 49px;
-  width: 49px;
+  height: 48px;
+  width: 48px;
   background-color: #240046;
   border: 1px solid #ff6d00;
+  outline: none;
 }
