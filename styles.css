@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+body {
+  background: #3d0200 url(assets/wood-bg.png);
+}
+.title {
+  margin-top: 2%;
+  text-align: center;
+  color: #fff;
+}
+#container {
+  display: flex;
+  margin: 0 auto;
+}
+
+/* ==== Game ==== */
+#game-progress {
+  height: 600px;
+  width: 300px;
+  background-color: #582f0e;
+}
+#game {
+  margin: 0 auto;
+  height: 600px;
+  width: 600px;
+  background-color: #582f0e;
+}
+.enemy {
+  height: 49px;
+  width: 49px;
+  background-color: #e85d04;
+  border: 1px solid #d00000;
+}
+.main-character {
+  height: 49px;
+  width: 49px;
+  background-color: #240046;
+  border: 1px solid #ff6d00;
+}
