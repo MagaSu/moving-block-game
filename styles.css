@@ -16,32 +16,31 @@ body {
 }
 #container {
   display: flex;
-  margin: 0 auto;
+  margin: 2% auto;
 }
 
 /* ==== Game ==== */
 #game-progress {
   height: 600px;
   width: 300px;
-  background-color: #582f0e;
+  background-color: #582f0ead;
+  position: absolute;
 }
 #game {
   margin: 0 auto;
-  height: 600px;
-  width: 600px;
-  background-color: #582f0e;
+  height: 650px;
+  width: 650px;
+  background-color: #582f0ead;
 }
 .enemy {
-  height: 48px;
-  width: 48px;
-  background-color: #e85d04;
-  border: 1px solid #d00000;
-  outline: none;
+  height: 50px;
+  width: 50px;
+  background: url(assets/enemy.gif);
+  transition: 0.3s;
 }
 .main-character {
-  height: 48px;
-  width: 48px;
-  background-color: #240046;
-  border: 1px solid #ff6d00;
-  outline: none;
+  height: 50px;
+  width: 50px;
+  background: url(assets/sprite.gif); /*#240046ab;*/
+  transition: 0.2s;
 }
