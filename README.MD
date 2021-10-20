@@ -11,3 +11,5 @@
    There comes more opponents.
    The player receives bonuses
 4. Work on style
+
+I'm now thinking how to give logic for each enemy block.

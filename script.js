@@ -61,12 +61,53 @@ document.addEventListener("keydown", (e) => {
 game.appendChild(enemy);
 
 const directions = ["y", "x", "-y", "-x"];
+
+// NOT FINISHED
+// const enemies = [
+//   {
+//     name: "enemyOne",
+//     position: {
+//       x: 0,
+//       y: 0,
+//     },
+//   },
+//   {
+//     name: "enemyTwo",
+//     position: {
+//       x: 0,
+//       y: 0,
+//     },
+//   },
+//   {
+//     name: "enemyThree",
+//     position: {
+//       x: 0,
+//       y: 0,
+//     },
+//   },
+// ];
+// console.log(enemies[2].name);
+
 let enemyDirection;
 
 const enemyPosition = {
   x: 0,
   y: 0,
 };
+
+// setInterval(() => {
+//   newEnemy();
+// }, 1000);
+
+// let i = 0;
+// function newEnemy() {
+//   if (i < enemies.length) {
+//     enemy[i] = document.createElement("div");
+//     enemy[i].className = "enemy";
+//     game.appendChild(enemy[i]);
+//   }
+//   i++;
+// }
 
 function randomDirection() {
   return (enemyDirection =
@@ -77,7 +118,7 @@ setInterval(() => {
   enemyBlock(randomDirection());
 }, 1000);
 
-function enemyBlock(pos) {
+function enemyBlock(pos, block = null) {
   if (pos === "y") {
     enemyPosition.y =
       enemyPosition.y < 550 ? enemyPosition.y + 50 : enemyPosition.y;

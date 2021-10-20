@@ -41,6 +41,6 @@ body {
 .main-character {
   height: 50px;
   width: 50px;
-  background: url(assets/sprite.gif); /*#240046ab;*/
+  background: url(assets/main.gif); /*#240046ab;*/
   transition: 0.2s;
 }
